@@ -19,14 +19,14 @@ For the installation, following the instructions on kicstart is the way to go.
 After doing or the prerequisites, then clone the repository.
 
 <details><summary> Linux and Mac </summary>
-    ```sh
+    ```
     git clone https://github.com/DimitrisDoxopoulos/modulized-kickstart-nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
     ```
 </details>
 
 <details><summary> For Windows: </summary>
     If you're using `cmd.exe`:
-    ```sh
+    ```
     git clone https://github.com/DimitrisDoxopoulos/modulized-kickstart-nvim.git "%localappdata%\nvim"
     ```
 
