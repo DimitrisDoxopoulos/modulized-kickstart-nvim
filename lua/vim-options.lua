@@ -1,7 +1,7 @@
 -- Set <space> as the leader key
 -- See ':help mapleader'
 --   NOTE: Must happen before plugins are loaded (otherwise the wrong leader will be used)
-vim.g.leader = " "
+vim.g.mapleader = " "
 vim.g.maplaocalleader = " "
 
 -- Set to true if you have a Nerd font installed and selected in the terminal
