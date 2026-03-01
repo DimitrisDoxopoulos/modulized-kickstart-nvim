@@ -18,20 +18,32 @@ For the installation, following the instructions on kicstart is the way to go.
 
 After doing or the prerequisites, then clone the repository.
 
+#### Clone kickstart.nvim
+
+> [!NOTE]
+> If following the recommended step above (i.e., forking the repo), replace
+> `nvim-lua` with `<your_github_username>` in the commands below
+
 <details><summary> Linux and Mac </summary>
-    ```
-    git clone https://github.com/DimitrisDoxopoulos/modulized-kickstart-nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
-    ```
+
+```sh
+git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+```
+
 </details>
 
-<details><summary> For Windows: </summary>
-    If you're using `cmd.exe`:
-    ```
-    git clone https://github.com/DimitrisDoxopoulos/modulized-kickstart-nvim.git "%localappdata%\nvim"
-    ```
+<details><summary> Windows </summary>
 
-    If you're using `powershell.exe`:
-    ```sh
-    git clone https://github.com/nvim-lua/kickstart.nvim.git "${env:LOCALAPPDATA}\nvim"
-    ```
+If you're using `cmd.exe`:
+
+```
+git clone https://github.com/nvim-lua/kickstart.nvim.git "%localappdata%\nvim"
+```
+
+If you're using `powershell.exe`
+
+```
+git clone https://github.com/nvim-lua/kickstart.nvim.git "${env:LOCALAPPDATA}\nvim"
+```
+
 </details>
