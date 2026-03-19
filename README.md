@@ -42,7 +42,13 @@ git clone https://github.com/DimitrisDoxopoulos/modulized-kickstart-nvim.git "%l
 
 If you're using `powershell.exe`
 
+
 ```
+git clone https://github.com/DimitrisDoxopoulos/modulized-kickstart-nvim.git "${env:LOCALAPPDATA}\nvim"
+```
+
+</details>
+
 
 #### Clone kickstart.nvim
 
