@@ -15,7 +15,7 @@ vim.g.have_nerd_fond = true
 -- Make line numvers default
 vim.o.number = true
 -- You can also add relative line numbers, to help with jumping
--- vim.o.relativenumbers = true
+vim.o.relativenumbers = true
 
 -- Enable mouse mode, can be useful for resizing splits, for example!
 vim.o.mouse = "a"
